@@ -112,7 +112,7 @@ npm run dev
 
 ---
 
-🔐 Authentication Flow
+## 🔐 Authentication Flow
 
 The bot intelligently handles authentication without manual intervention:
 
@@ -130,7 +130,7 @@ graph TD
     E --> H
 ```
 
-Supported Auth Plugins:
+## Supported Auth Plugins:
 
 · ✅ AuthMe Reloaded
 · ✅ NLogin
@@ -146,7 +146,7 @@ Key Points:
 
 ---
 
-💬 Discord Commands
+## 💬 Discord Commands
 
 Command Description Example
 !start Connect bot to Minecraft server !start
@@ -163,7 +163,7 @@ Command Description Example
 
 ---
 
-🧠 Natural Behavior
+## 🧠 Natural Behavior
 
 To avoid detection as a bot, the AI performs random human-like actions every 8–25 seconds:
 
@@ -178,7 +178,7 @@ Behavior Weight Description
 
 ---
 
-🔄 Account Rotation Flow
+## 🔄 Account Rotation Flow
 
 The bot automatically rotates accounts to prevent disconnection issues:
 
@@ -208,32 +208,32 @@ The bot automatically rotates accounts to prevent disconnection issues:
 
 ---
 
-🔧 Troubleshooting
+## 🔧 Troubleshooting
 
-❌ Bot not registering/logging in
+### ❌ Bot not registering/logging in
 
 · Check console output — it prints every auth step
 · Verify LOGIN_PASSWORD in .env matches your server's requirements
 · Delete registered_accounts.json to force re-registration of all accounts
 · Ensure the server uses supported auth plugins
 
-❌ Wrong Minecraft version
+### ❌ Wrong Minecraft version
 
 · Update MC_VERSION in .env to match your server
 · Common values: 1.19.4, 1.18.2, 1.20.1
 
-❌ Discord bot not responding
+### ❌ Discord bot not responding
 
 · Enable Message Content Intent in Discord Developer Portal → Your App → Bot
 · Verify DISCORD_CHANNEL_ID points to the correct channel
 · Check the bot has proper permissions in the channel
 
-❌ Bot gets stuck after joining
+### ❌ Bot gets stuck after joining
 
 · Monitor console for the exact chat messages the server sends
 · The auth trigger list covers most plugins, but you can add custom triggers in src/mcBot.js
 
-❌ Bot disconnects frequently
+### ❌ Bot disconnects frequently
 
 · Increase RECONNECT_DELAY in .env
 · Check if AUTO_SWITCH_MINUTES is set too high or too low
@@ -241,7 +241,7 @@ The bot automatically rotates accounts to prevent disconnection issues:
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
 ```
 mc-afk-bot/
@@ -259,7 +259,7 @@ mc-afk-bot/
 
 ---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Here's how you can help:
 
@@ -273,25 +273,25 @@ Please ensure your code follows the existing style and includes appropriate comm
 
 ---
 
-📄 License
+## 📄 License
 
 Distributed under the MIT License. See LICENSE for more information.
 
 ---
 
-🌐 Visit Us
+## 🌐 Visit Us
 
 www.zendevelopment.in — Explore more projects and services from Zen Development.
 
 ---
 
-⚠️ Disclaimer
+## ⚠️ Disclaimer
 
 This bot is intended for educational and legitimate AFK purposes only. Please ensure you have permission to use bots on the server you're connecting to, and comply with the server's rules and terms of service. The authors are not responsible for any misuse or violations of server policies.
 
 ---
 
-📞 Support
+## 📞 Support
 
 · Issues: GitHub Issues
 · Discord: Join our Discord Server
@@ -301,5 +301,3 @@ This bot is intended for educational and legitimate AFK purposes only. Please en
 ---
 
 Made with ❤️ by Zen Development for the Minecraft community
-
-```
