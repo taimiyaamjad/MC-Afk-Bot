@@ -1,0 +1,9 @@
+# Add your Minecraft usernames here, one per line
+# The bot will cycle through these when one gets kicked/banned
+# Lines starting with # are comments and will be ignored
+
+BotAccount1
+BotAccount2
+BotAccount3
+BotAccount4
+BotAccount5

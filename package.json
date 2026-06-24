@@ -1,0 +1,16 @@
+{
+  "name": "mc-afk-bot",
+  "version": "1.0.0",
+  "description": "Minecraft AFK Bot with Discord control and account rotation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.23.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "vec3": "^0.1.10"
+  }
+}
