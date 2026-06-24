@@ -289,9 +289,7 @@ This bot is intended for educational and legitimate AFK purposes only. Please en
 · Issues: GitHub Issues
 · Discord: Join our Discord Server
 · Documentation: Check the Wiki
-
+· Website: Zen Development(https://www.zendevelopment.in)
 ---
 
-Made with ❤️ for the Minecraft community
-
-```arkdown
+Made with ❤️ for the Minecraft community By Zen Development
