@@ -3,6 +3,7 @@
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
 [![Discord](https://img.shields.io/badge/discord-integrated-5865F2)](https://discord.com/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Website](https://img.shields.io/badge/website-zendevelopment.in-ff69b4)](https://www.zendevelopment.in)
 
 > A Minecraft AFK bot for cracked servers with AuthMe/NLogin support. Automatically registers new accounts, logs in returning ones, and rotates accounts when kicked — perfect for hosting providers with auto-kick bugs.
 
@@ -278,6 +279,12 @@ Distributed under the MIT License. See LICENSE for more information.
 
 ---
 
+🌐 Visit Us
+
+www.zendevelopment.in — Explore more projects and services from Zen Development.
+
+---
+
 ⚠️ Disclaimer
 
 This bot is intended for educational and legitimate AFK purposes only. Please ensure you have permission to use bots on the server you're connecting to, and comply with the server's rules and terms of service. The authors are not responsible for any misuse or violations of server policies.
@@ -289,7 +296,10 @@ This bot is intended for educational and legitimate AFK purposes only. Please en
 · Issues: GitHub Issues
 · Discord: Join our Discord Server
 · Documentation: Check the Wiki
-· Website: Zen Development(https://www.zendevelopment.in)
+· Website: www.zendevelopment.in
+
 ---
 
-Made with ❤️ for the Minecraft community By Zen Development
+Made with ❤️ by Zen Development for the Minecraft community
+
+```
