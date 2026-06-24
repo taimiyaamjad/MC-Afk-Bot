@@ -1,4 +1,3 @@
-```markdown
 # 🤖 MC AFK Bot
 
 [![Node.js Version](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org/)
